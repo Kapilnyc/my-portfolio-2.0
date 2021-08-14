@@ -1,0 +1,182 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Montserrat', sans-serif;
+transition-timing-function: ease-out   
+}
+@media all and (max-width: 100px) {
+  body {
+    float: none;
+    width: auto;
+  }
+
+}
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+.container{
+display: grid;
+grid-template-columns: 1fr;
+}
+.nav-wrapper{
+display : flex;
+justify-content: space-between;
+padding: 30px;
+background-color: #F5F5F5;
+}
+.left-side {
+display: flex;
+}
+#icon{
+	margin-right:10px;
+	margin-left:10px;
+
+}
+#icon a:hover{
+	background-color: red;
+
+}
+#icon2{
+	margin-right:10px;
+	margin-left:10px;
+}
+#icon a:hover{
+	background-color: blue;
+}
+#icon3{
+	margin-right:10px;
+	margin-left:10px;
+}
+#icon a:hover{
+	background-color: lightblue;
+}
+.nav-wrapper>.left-side>div{
+margin-right: 20px;
+font-size: 0.9em;
+text-transform : uppercase;
+
+}
+
+.nav-link-wrapper{
+height: 22px;
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a
+{
+color: #8a8a8a;
+text-decoration: none;
+transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+border-bottom: 1px solid black;
+
+}
+.nav-link-wrapper a:hover{
+color:black;
+
+
+}
+/* -----------------------------------Here navbar ends----------------------------------------------------------------------------------------------------- */
+.front{
+	height:100vh;
+	overflow:hidden;
+
+}
+#myvideo{
+	max-width: 100%;
+}
+.text{
+	color:#ffffff;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+
+
+}
+
+/*------------------------------------First page ends there-----------------------------------------------------------------------------------------------*/
+.content-wrapper{
+height: 100vh;
+background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+border-top-left-radius: 1000px;
+border-bottom-right-radius: 1000px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+   font-size: 1rem;
+   color:#ffffff;
+
+}
+#bottom-button{
+text-align: center;
+}
+#bottom-button button{
+	background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+	cursor: pointer;
+	border: none;
+font-size: 17px;
+margin: 4px 2px;
+padding: 15px 32px;
+border-radius: 100px;
+}
+h2{
+font-size: 3rem;
+padding-left: 50px;
+}
+h2 span{
+	font-size:1rem;
+}
+/*----------------------------------------------------------------------------about---------------------*/
+#contact{
+	height:50vh;
+background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+text-align: center;
+font-size: 3rem;
+padding:38px;
+margin-top: 30px;
+border-top-right-radius: 100px;
+border-top-left-radius: 100px;
+color:#ffffff;
+transition: color 0.5s;
+
+}
+footer{
+	text-align: center;
+	background-color:#000000;
+	color:#ffffff;
+
+}
+p{
+	font-size:1rem;
+	padding : 30px;
+	margin:20px;
+}
+.contact :hover{
+border-bottom: 1px solid black;
+
+}
+.contact p:hover{
+	color:black;
+
+}
